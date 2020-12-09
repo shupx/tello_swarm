@@ -1,0 +1,8 @@
+prefix=/home/shupeixuan/tello_control/devel
+
+Name: tello_position
+Description: Description of tello_position
+Version: 0.0.0
+Cflags: -I/home/shupeixuan/tello_control/src/tello_position/include
+Libs: -L${prefix}/lib 
+Requires: 

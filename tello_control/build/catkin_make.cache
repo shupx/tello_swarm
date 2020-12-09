@@ -1,0 +1,2 @@
+tello_position
+-DCATKIN_DEVEL_PREFIX=/home/shupeixuan/tello_control/devel -DCMAKE_INSTALL_PREFIX=/home/shupeixuan/tello_control/install -G Unix Makefiles

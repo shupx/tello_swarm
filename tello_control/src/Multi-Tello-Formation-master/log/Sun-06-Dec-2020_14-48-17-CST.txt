@@ -1,0 +1,17 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2020-12-06 14:48:17.126124
+end_time: 2020-12-06 14:48:17.351659
+duration: 0.225535
+
+id: 1
+command: sn?
+response: 0TQZH98ED00ULH
+start time: 2020-12-06 14:48:22.134223
+end_time: 2020-12-06 14:48:22.282507
+duration: 0.148284
+
