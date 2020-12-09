@@ -1,0 +1,11 @@
+编译前先安装依赖的ros包
+nlinkparser
+
+ros-melodic-serail*
+
+nlinkparser官方的serial包
+
+
+tello_driver
+
+

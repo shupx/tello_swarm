@@ -1,0 +1,10 @@
+在每个tello对应的工控机上（或者地面站上）分别启动tello_driver,注意修改相应的<group>为tello0
+roslaunch tello_driver tello_node.launch 
+
+在地面站启动nlinkparser和tello0的控制节点
+roslaunch tello_position tello0.launch
+
+向/tello0/expectPos话题发送期望位置和航向角增量（angular.z)
+向/command话题发送指令控制飞机起飞、定点、停止、降落
+
+

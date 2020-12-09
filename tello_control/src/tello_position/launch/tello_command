@@ -1,8 +1,0 @@
-在每个tello对应的工控机上分别启动tello_driver,注意修改相应的<group>
-roslaunch tello_driver tello_node.launch 
-
-在地面站启动nlinkparser和tello0的控制节点
-roslaunch tello_position tello0.launch
-
-
-
