@@ -1,5 +1,6 @@
 # tello_swarm
 含有一个根据tello上的uwb标签位置控制它飞到指定位置的控制节点
+
 往/expect_pos话题发送期望位置坐标和航向角增量，/command控制起飞降落悬停飞向期望点等
 需要另外启动tello_driver_node(tello的ros驱动包，ros官方有），可能还要修改group
 注意飞机cmd指令是前左下坐标系（符合遥控器摇杆），要和uwb基站的x、y轴对应上，具体请自行阅读并修改控制节点的代码
